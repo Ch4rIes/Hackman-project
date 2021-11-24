@@ -29,7 +29,7 @@ public class Puzzle {
             }
         }
         System.out.println();
-        System.out.println("Guesses: ");
+        System.out.print("Guesses: ");
         // print out the guesses that users have made
         for(String temp : guesses) System.out.print(temp +", ");
         System.out.println();
